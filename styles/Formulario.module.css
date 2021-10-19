@@ -1,0 +1,25 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario > div {
+    display: flex;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.link span:hover {
+    color: springgreen;
+}
